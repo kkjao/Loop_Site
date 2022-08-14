@@ -1,0 +1,199 @@
+/* geralzão */
+ 
+*{
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+    color: blueviolet;
+    border: none;
+
+}
+
+input, label{
+
+    display: block;
+    width: 100%;
+
+}
+
+input:focus, label:focus{
+
+    outline: none;
+
+}
+
+.img1{
+
+margin: 0;
+padding: 0;
+width: 60px;
+
+
+
+}
+
+.infinitas{
+
+    display: inline;
+    color: blueviolet;
+
+}
+
+a{
+
+    color: #732571;
+
+}
+
+#login{
+
+width: 80px;
+float: right;
+padding: 0;
+margin: 0;
+
+
+}
+
+body{
+
+
+    padding-top: 5vh; /* view hight --> 5% da tela */
+    background-image: url(../images/backgorund03.gif); 
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+/* form */
+
+#main-container{
+
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #030000;
+    border-radius: 10px;
+    padding: 25px;
+    
+
+}
+
+#main-container h1 {
+
+    text-align: center;
+    margin-bottom: 25px;
+    font-size: 2rem;
+    color: blueviolet;
+    
+
+}
+
+form{
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+.full-box{
+
+    flex: 1 1 100%;
+    position: relative;
+
+}
+
+.half-box{
+
+    flex: 1 1 45%;
+    position: relative;
+
+}
+
+
+.spacing{
+
+    margin-right: 2.5%;
+
+
+}
+
+.spacing1{
+
+    margin-left: 43%;
+
+}
+
+.spacing2{
+
+    margin-left: 30%;
+
+}
+
+.spacing3{
+
+    margin-left: 45%;
+
+}
+
+label{
+
+    font-weight: bold;
+    font-size: .8rem;
+
+}
+
+input{
+
+    border-bottom: 2px solid blueviolet;
+    padding: 10px;
+    font-size: .9rem;
+    margin-bottom: 40px;
+    background-color: #030000;
+
+}
+
+input:focus{
+
+    border-color: #ac57a9; 
+
+}
+
+input[type="submit"]{
+
+    background-color: blueviolet;
+    color: #030000;
+    border: none;
+    border-radius: 20px;
+    height: 40px;
+    cursor: pointer;
+
+}
+
+#agreement{
+
+    margin-right: 5px;
+
+}
+
+#agreement, #agreement-label{
+
+    display: inline-block;
+    width: auto;
+
+}
+
+#second-container{
+
+    width: 500px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #030000;
+    border-radius: 10px;
+    padding: 25px;
+
+}
+
